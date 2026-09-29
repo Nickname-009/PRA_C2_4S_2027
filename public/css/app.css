@@ -62,7 +62,7 @@ body {
     line-height: 1.6;
     color: #212529;
     text-align: left;
-    background-color: #f8fafc;
+    /* background-color: #f8fafc; */
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -154,8 +154,14 @@ sup {
     top: -0.5em;
 }
 
+a:hover {
+    color: #5525a1;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
 a {
-    color: #3490dc;
+    color: #7434dc;
     text-decoration: none;
     background-color: transparent;
 }
@@ -164,10 +170,6 @@ a {
     color: #E9ECEF;
 }
 
-a:hover {
-    color: #1d68a7;
-    text-decoration: underline;
-}
 
 a:not([href]):not([class]) {
     color: inherit;
@@ -367,6 +369,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
     font-size: 2.25rem;
+    font-weight: bold;
 }
 
 h2, .h2 {
@@ -599,6 +602,7 @@ pre code {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    background: rgb(121, 126, 131);
 }
 
 .col {
@@ -681,6 +685,7 @@ pre code {
 .col-8 {
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
+
 }
 
 .col-9 {
@@ -3982,9 +3987,10 @@ input[type=button].btn-block {
     padding-top: 0.32rem;
     padding-bottom: 0.32rem;
     margin-right: 1rem;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     line-height: inherit;
     white-space: nowrap;
+    font-weight: bold;
 }
 .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none;
