@@ -33,13 +33,20 @@
 </div>
 
 <div class="breadcrumbfoot">
-    <a href="/" title="{{ __('misc.home_alt') }}" alt="{{ __('misc.home_alt') }}">
-        {{ __('misc.home') }}
-    </a>
-
     <footer>
+        <a href="/" title="{{ __('misc.home_alt') }}" alt="{{ __('misc.home_alt') }}">
+            {{ __('misc.home') }}
+        </a>
+
+
         © {{ __('misc.copyright') }}
+        <br>
+        <br>
+        <p>About us</p>
     </footer>
+    <div class="miniFooter">
+        <p>bel ons op: 01 23456789</p> <p>other media: placeholdersocialmedia.com</p>
+    </div>
 </div>
 
 <x-footer/>
