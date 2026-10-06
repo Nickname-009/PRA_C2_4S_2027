@@ -48,8 +48,8 @@ Route::get('/datafeeds/{brand_slug}.xml', [RedirectController::class, 'datafeed'
 // Locale routes
 Route::get('/language/{language_slug}/', [LocaleController::class, 'changeLocale']);
 
-// List of manuals for a brand
-Route::get('/{brand_id}/{brand_slug}/', [BrandController::class, 'show']);
+    // List of manuals for a brand
+    Route::get('/{brand_id}/{brand_slug}/', [BrandController::class, 'show']);
 
 // Detail page for a manual
 Route::get('/{brand_id}/{brand_slug}/{manual_id}/', [ManualController::class, 'show']);

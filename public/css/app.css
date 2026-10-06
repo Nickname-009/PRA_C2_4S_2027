@@ -610,9 +610,10 @@ pre code {
     background: rgb(180, 188, 197);
 }
 
-.col-md-8 a{
-    
-}
+
+
+
+
 
 .col {
     flex-basis: 0;
@@ -10082,4 +10083,22 @@ footer {
     padding: 0 5px;
     color: #ccc;
     content: "/ ";
+}
+
+
+
+.link-grid a {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.link-grid a:hover {
+    text-decoration: none;
+    background-color: #f1f1f1;
 }
