@@ -63,6 +63,11 @@ body {
     color: #212529;
     text-align: left;
     /* background-color: #f8fafc; */
+
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -603,6 +608,10 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     background: rgb(180, 188, 197);
+}
+
+.col-md-8 a{
+    
 }
 
 .col {
@@ -10026,6 +10035,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-radius: 0;
     width: 100%;
     margin: 0;
+
 }
 
 .breadcrumbfoot {
@@ -10035,6 +10045,7 @@ a.text-dark:hover, a.text-dark:focus {
     background-color: #343A40;
     box-sizing: border-box;
     color: white;
+    flex: 1;
 }
 
 .breadcrumbfoot p{
@@ -10061,6 +10072,7 @@ footer {
     width: 100%;
     max-height: 5%;
     border: 2px solid #737373;
+
 }
 .breadcrumb > li {
     display: inline-block;
