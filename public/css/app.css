@@ -10088,17 +10088,58 @@ footer {
 
 
 .link-grid a {
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color:#CDD6E0;
+    border: 2px solid #2C2E30;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100px;
+    padding-top: 35px;
+    border-radius: 20px;
 }
 
-.link-grid a:hover {
-    text-decoration: none;
-    background-color: #f1f1f1;
+
+.homePageButtons a {
+    background-color:#CDD6E0;
+    border: 1px solid #2C2E30;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    padding: 10px 25px 10px 25px;
+    line-height: 3.5;
+    border-radius: 20px;
 }
+
+.homePageButtons a:hover {
+    transition-duration: 0.67s;
+    text-decoration: none;
+    background-color:#A3ABB3;
+}
+
+
+.link-grid a:hover {
+    transition-duration: 0.67s;
+    text-decoration: none;
+    background-color: #A3ABB3;
+}
+
+
+.col-md-8 .link-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.col-md-8 .link-grid > div {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.col-md-8 .link-grid a {
+    display: block;
+}
+
+

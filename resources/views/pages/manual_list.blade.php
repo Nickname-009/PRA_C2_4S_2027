@@ -10,9 +10,8 @@
 
 
     <h1>{{ $brand->name }}</h1>
-    <div class="link-grid">
-        <p>{{ __('introduction_texts.type_list', ['brand'=>$brand->name]) }}</p>
-
+    <p>{{ __('introduction_texts.type_list', ['brand'=>$brand->name]) }}</p>
+        <div class="link-grid">
 
             @foreach ($manuals as $manual)
 
@@ -25,5 +24,5 @@
 
                 <br />
             @endforeach
-    </div>
+        </div>
 </x-layouts.app>
